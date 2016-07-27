@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册-聚美账户</title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--=================引用头部=================-->
+		<div id="re_header"></div>
+		<!--=======================主体部分===================-->
+		<div class="re_sign">
+			<div class="re_main">
+				<div class="re_img">
+					<a href="javascript:;" class="img_click"></a>
+					<div class="img_r">
+						<div class="img_r_1">
+							<strong>用户注册</strong>
+							<p>已有账号<a href="login.html" target="_blank">在此登录</a></p>
+						</div>
+						<form method="post" class="form_r" onsubmit="return false">
+							<!--=======注册用户名======-->
+							<div class="re_user">
+								<input type="text" placeholder="手机号" class="onfocus user_name blur"  id="user_log"/>
+								<p class="re_user_tip ifError">请输入11位手机号码</p>
+							</div>
+							<!--==============注册验证码==========-->
+							<div class="re_pwd">
+								<div class="re_pwd_l">
+									<input type="text" placeholder="短信校验码" class="re_pwd_in onfocus blur"  id="check_num"/>
+									<div class="re_pwdtip ifError">请输入6位短信验证码</div>
+								</div>
+								<a href="javascript:;" class="get_checknum"><span>获取短信验证码</span></a>
+							</div>
+							<!--=============密码===================-->
+							<div class="re_passwd">
+								<input type="password" placeholder="密码"  class="onfocus user_passwd blur" id="user_pwd" />
+								<p  class="re_passwdtip ifError">6-16个字符，建议使用字母加数字或符号组合</p>
+							</div>
+							<div class="re_passwd ">
+								<input type="password" placeholder="重复密码"  class="onfocus blur" id="pwd_check" />
+								<p  class="re_passwd2 ifError">请再次输入密码</p>
+							</div>
+							<!--=============登录注册===============-->
+							<div class="re_act">
+								<p class="re_submit_btn">
+									<input type="submit" value="同意协议并注册" />
+								</p>
+								<p class="re_usertips"><a href="javascript:;">《聚美优品用户协议》</a></p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--===================引用底部==================-->
+		<div id="re_footer"></div>
+	</body>
+</html>

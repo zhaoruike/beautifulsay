@@ -1,0 +1,622 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.u-flyer {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.quan {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid red;
+    background-image: url(../imgs/details/time_count.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-radius: 50%;
+}
+
+#body {
+    background: #F7F7F7;
+    padding-bottom: 1px;
+}
+
+.detail_box1 {
+    width: 1090px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.detail_main {
+    background: #fff;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 4px #d3d3d3;
+    width: 1090px;
+    height: 607px;
+}
+
+/*左边*/
+.detail_main_l {
+    width: 702px;
+    float: left;
+    height: 577px;
+    border-top: none;
+}
+
+.l_title {
+    background: #F8F8F8;
+    padding: 5PX 0 20px 48px;
+}
+
+.l_title p {
+    font-size: 18px;
+    overflow: hidden;
+    height: 107px;
+    width: 630px;
+}
+
+.l_title p strong {
+    color: #ec2b8c;
+    font-style: normal;
+    font-size: 400;
+}
+
+/*=========================倒计时================*/
+.time_count {
+    position: relative;
+}
+
+.time_count_main {
+    background: #323337;
+    position: absolute;
+    top: -13px;
+    left: 50px;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 18px;
+}
+
+.time_count_main em {
+    font-style: normal;
+}
+
+.time_count_img {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #efefef;
+}
+
+.time_count_img img {
+    width: 1000px;
+    height: 400px;
+    margin-left: -150px;
+}
+
+/*===============================信息share================*/
+.l_info {
+    padding: 18px 0 0 54px;
+    height: 25px;
+    width: 648px;
+}
+
+.l_info_list {
+    width: 450px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.l_info_list a {
+    display: inline-block;
+    float: left;
+    margin-right: 6px;
+    height: 23px;
+    border: 1px solid #e1e0e0;
+    padding: 0 8px;
+    line-height: 23px;
+    color: #5C5C5C;
+}
+
+.l_info_share {
+    float: right;
+    margin-right: 10px;
+    margin-left: 48px;
+    margin-top: -20px;
+    width: 69px;
+    height: 18px;
+}
+
+.l_info_share a {
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #949494;
+}
+
+/*===============右边==================*/
+.detail_main_r {
+    width: 330px;
+    height: 511px;
+    float: left;
+    margin-left: 30px;
+}
+
+.r_logo {
+    height: 80px;
+    padding: 25px 0;
+    border-bottom: 1px dotted #5C5C5C;
+}
+
+.r_logo a img {
+    width: 160px;
+    height: 80px;
+    float: left;
+}
+
+.r_logo_country {
+    width: 152px;
+    height: 42px;
+    overflow: hidden;
+    margin-top: 22px;
+    float: right;
+}
+
+.r_logo_country img {
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: 1px solid #eee;
+    float: left;
+}
+
+.country_list {
+    float: left;
+    width: 78px;
+    height: 40px;
+}
+
+.country_list li {
+    color: #8d8d8d;
+    line-height: 20px;
+    height: 20px;
+    width: 78px;
+    overflow: hidden;
+}
+
+/*====================价格==========================*/
+.r_second {
+    width: 330px;
+    height: 58px;
+    padding: 25px 0;
+    padding-bottom: 10px;
+}
+
+.r_price {
+    width: 330px;
+    height: 38px;
+    padding-bottom: 20px;
+}
+
+.r_price_1 {
+    float: left;
+    color: #232323;
+    font-size: 38px;
+    line-height: 1;
+    margin-right: 10px;
+    width: 60px;
+    height: 38px;
+}
+
+.r_price_1 span {
+    font-size: 24px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.r_price_1 i {
+    font-style: normal;
+}
+
+.r_price_2 {
+    float: left;
+    text-decoration: line-through;
+    color: #676767;
+    margin-right: 15px;
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+.r_price_3 {
+    float: right;
+    margin-top: 13px;
+    position: relative;
+}
+
+.price_clear {
+    color: #DEDEDE;
+    cursor: pointer;
+}
+
+.price_list {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #fff;
+    width: 420px;
+    display: none;
+    z-index: 6;
+}
+
+.jiao {
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    border-width: 0 7px 8px;
+    border-color: transparent transparent #bdb5cd;
+    width: 0;
+    height: 0px;
+    z-index: 6;
+    border-style: dashed dashed solid;
+    z-index: 6;
+}
+
+.jiao2 {
+    position: absolute;
+    right: 23px;
+    top: 9px;
+    border-width: 0 6px 7px;
+    border-color: transparent transparent #fff;
+    border-style: dashed dashed solid;
+    z-index: 6;
+    overflow: visible;
+    width: 0;
+    height: 0px;
+}
+
+.price_list_main {
+    width: 405px;
+    height: 312px;
+    border: 1px solid #BDB5CD;
+    padding: 15px;
+    line-height: 180%;
+    box-shadow: 3px 3px 8px #EFEFEF;
+    color: #bbb;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: #fff;
+}
+
+.price_list_tit {
+    width: 345px;
+    height: 43px;
+    padding: 5px 30px;
+}
+
+.detail_tit {
+    font-weight: 700;
+    width: 355px;
+    height: 22px;
+    text-overflow: ellipsis;
+    color: #333;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.price_list_main1 {
+    border-top: 1px solid #EDEDED;
+    margin: 5px 30px;
+    padding: 10px 5px;
+    position: relative;
+    width: 335px;
+    height: 222px;
+}
+
+.list_main {
+    width: 335px;
+    height: 222px;
+    overflow: hidden;
+}
+
+.list_main_l {
+    float: left;
+    text-align: center;
+    margin: 10px 13px;
+}
+
+.list_main_l img {
+    width: 108px;
+    height: 108px;
+}
+
+.list_main_l p {
+    width: 110px;
+    height: 40px;
+    color: #7e7e7e;
+    margin: 5px 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.plus {
+    font-size: 40px;
+    color: #d2d2d2;
+    padding: 30px 17px;
+    position: absolute;
+    left: 143px;
+    top: 35px;
+    float: left;
+}
+
+.kucun {
+    position: absolute;
+    right: -20px;
+    bottom: -10px;
+}
+
+/*==========================购买人数=========================*/
+.how_many {
+    padding: 18px 0 20px;
+    border-bottom: 1px dotted #c5c5c5;
+    color: #999;
+    width: 330px;
+    height: 18px;
+}
+
+.how_many div {
+    background: url(../imgs/details/bg_logo.png) no-repeat 0 3px;
+    margin-right: 40px;
+    padding-left: 23px;
+    float: left;
+}
+
+.how_many strong {
+    color: #fd4d87;
+    font-weight: 700;
+}
+
+.r_service {
+    width: 330px;
+    height: 100px;
+    padding-top: 12px;
+    padding-bottom: 25px;
+}
+
+.r_service p, .r_service_p3 {
+    width: 330px;
+    height: 32px;
+    padding-top: 13px;
+    font-size: 13px;
+    color: #8e8e8e;
+    display: block;
+}
+
+.r_service em {
+    font-style: normal;
+    margin-right: 26px;
+}
+
+.xinghao {
+    float: left;
+    width: 85px;
+}
+
+.section_xh {
+    float: left;
+    width: 197px;
+    height: 32px;
+    padding-top: 13px;
+    font-size: 13px;
+    color: #8e8e8e;
+    position: relative;
+}
+
+.section_con {
+    width: 197px;
+    height: 20px;
+    border: 1px solid #e3e3e3;
+    text-indent: 5px;
+    line-height: 20px;
+}
+
+.down_sanjiao {
+    background: url(../imgs/details/bg_logo1.png) no-repeat -192px -79px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 7px;
+    top: 16px;
+}
+
+.section_xh ul {
+    width: 177px;
+    height: 52px;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    display: none;
+    background: #fff;
+}
+
+.section_xh ul li {
+    height: 26px;
+    line-height: 26px;
+    text-align: left;
+    width: 177px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.section_xh ul li:nth-child(1) {
+    color: #ed145b;
+}
+
+/*======================加入购物车================*/
+.r_forth {
+    width: 330px;
+    height: 41px;
+    padding: 25px 0;
+}
+
+.r_forth a {
+    width: 183px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #f1185f;
+    display: block;
+}
+
+/*======================服务=======================*/
+.r_service_detail {
+    width: 1090px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 20px 0;
+    box-shadow: 1px 1px 4px #d3d3d3;
+    height: 80px;
+    clear: both;
+}
+
+.r_service_detail_s {
+    border-right: 1px solid #eee;
+    float: left;
+    overflow: hidden;
+    margin-left: 60px;
+    width: 200px;
+    height: 80px;
+    position: relative;
+}
+
+.service_de_1 {
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+}
+
+.service_t {
+    background-image: url(../imgs/details/service_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -220px;
+    width: 200px;
+    height: 80px;
+}
+
+.service_b {
+    background-image: url(../imgs/details/service_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: -2px -6px;
+    width: 200px;
+    height: 80px;
+}
+
+.service_b a {
+    width: 200px;
+    height: 80px;
+    display: block;
+}
+
+.f1 .service_t {
+    background-position: -240px -220px;
+}
+
+.f1 .service_b {
+    background-position: -242px -6px
+}
+
+.f2 .service_t {
+    background-position: -460px -220px;
+}
+
+.f2 .service_b {
+    background-position: -460px -6px
+}
+
+.f3 .service_t {
+    background-position: -680px -220px;
+}
+
+.f3 .service_b {
+    background-position: -680px -6px;
+}
+
+.f3 {
+    margin-left: 15px;
+    border-right: none
+}
+
+/*================商品详情=============*/
+.shop_detial {
+    margin: 20 auto;
+    width: 1090px;
+    background: #fff;
+    box-shadow: 1px 1px 4px #d3d3d3;
+}
+
+.shop_detial_con {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.shop_detial_1 {
+    width: 920px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(../imgs/details/shop_detail.jpg) no-repeat left top;
+}
+
+.shop_detial_2 {
+    width: 920px;
+    margin: 20px auto 0;
+}
+
+.shop_detial_3 {
+    width: 922px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(../imgs/details/shop_detail.jpg) no-repeat left -111px;
+}
+
+.shop_detial_4 {
+    margin: 20px auto 0;
+    width: 790px;
+}
+
+.shop_detial_4 img {
+    width: 790px;
+}
+
+.shop_detial_5 {
+    width: 922px;
+    height: 50px;
+    margin: 0 auto;
+    background: url(../imgs/details/shop_detail.jpg) no-repeat left -307px;
+}
+
+

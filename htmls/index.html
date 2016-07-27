@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>聚美-极速免税店</title>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="../css/index.css" />
+		
+	</head>
+	<body>
+		<!--========================右侧导航栏====================-->
+		<div class="nav_right">
+			<ul class="nav_right_top">
+				<li class="nav_right_login">
+					<a href="javascript:;" class="nav_a" >
+						<span class="nva_a_bg" id="login" ></span>
+					</a>
+					<div class="nav_login">
+						<div class="nav_login_logo">
+							<p class="pImg"><img src="../imgs/nav_login.jpg"/></p>
+							<p class="pText">你好！请<a href="login.html" target="_blank">登录</a>|<a href="register.html"target="_blank">注册</a></p>
+						</div>
+						<div class="nav_btn">
+							<a href="javascript:;" class="nav_myorder">我的订单</a>
+							<a href="javascript:;"  class="nav_myfav">我的收藏</a>
+						</div>
+						<p class="er_sj login_sj"></p>
+						<a class="close"></a>
+					</div>
+				</li>
+				<li class="nav_right_cart">
+					<a href="javascript:;"  class="nav_a" >
+						<span></span>
+						<em class="text">购物车</em>
+						<strong>0</strong>
+					</a>
+				</li>
+				<li class="nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="caichan"></span>
+					</a>
+					<div class="my_qianbao">我的财产<p class="sanjiao"></p></div>
+				</li>
+				<li class="nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="xinyuan"></span>
+					</a>
+					<div class="my_qianbao">我的心愿单<p class="sanjiao"></p></div>
+				</li>
+			</ul>
+			<ul class="nav_right_b">
+				<li class="nav_ewm nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span  class="nva_a_bg" id="ewm"></span>
+					</a>
+					<div class="nav_ewm_pic"><img src="../imgs/phone_ewm.png"/><p class="er_sj"></p></div>
+				</li>
+				<li class="nav_qianbao" id="mask">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="kefu"></span>
+					</a>
+					<div class="my_qianbao">客服中心<p class="sanjiao"></p></div>
+				</li>
+				<li class="nav_qianbao" id="toTop">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="dingbu"></span>
+					</a>
+					<div class="my_qianbao" >返回顶部<p class="sanjiao"></p></div>
+				</li>
+			</ul>
+			<div class="buycart">
+				<div class="buycart_1">
+					<span>购物车</span>
+					<span class="car_close">×</span>
+				</div>
+				<div class="buycart_2">
+					<div class="buycar_em"></div>
+				</div>
+			</div>
+		</div>
+		<!--======================================顶部导航=======================================-->
+		<div class="header">
+			<div class="header_header">
+				<ul class="headerl">
+					<li><a href="javascript:;"><img src="../imgs/smalllogo.png"/></a></li>
+					<li><a href="javascript:;">限时特卖</a></li>
+					<li><a href="javascript:;">美妆商城</a></li>
+					<li><a href="javascript:;">极速免税店</a></li>
+					<li class="header_more">
+						<a href="javascript:;"  class="header_a">
+							美妆口碑
+							<strong class="header_shadow"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">美妆大全</a>
+							<a href="javascript:;">口碑</a>
+							<a href="javascript:;">free派</a>
+							<a href="javascript:;">喜从盒来</a>
+							<a href="javascript:;">我的闺房</a>
+						</div>
+					</li>
+					<li><a href="javascript:;">手机聚美</a></li>
+					<li class="header_more" style="background: none;">
+						<a href="javascript:;" class="header_a">
+							正品保证
+							<strong class="header_shadow"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">真品联盟</a>
+							<a href="javascript:;">正品鉴定</a>
+							<a href="javascript:;">常见问题</a>
+							<a href="javascript:;">退货政策</a>
+							<a href="javascript:;">帮助中心</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="headerr">
+					<li><a href="login.html"target="_blank">登录</a></li>
+					<li><a href="register.html"target="_blank">注册</a></li>
+					<li><a href="javascript:;">订单查询</a></li>
+					<li  class="header_more">
+						<a href="javascript:;" class="header_a">
+							我的聚美
+							<strong class="header_shadow"></strong>
+						</a>
+							<div class="menu_list">
+								<a href="javascript:;">我的订单</a>
+								<a href="javascript:;">我的现金券</a>
+								<a href="javascript:;">我的红包</a>
+								<a href="javascript:;">我的余额</a>
+								<a href="javascript:;">我的提现退款</a>
+							</div>
+						
+					</li>
+					<li style="background: none;"  class="header_more">
+						<a href="javascript:;" class="header_a">
+							更多
+							<strong class="header_shadow1"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">邀请好友</a>
+							<a href="javascript:;">添加收藏</a>
+							<a href="javascript:;">新浪微博</a>
+							<a href="javascript:;">聚美微信</a>
+							<a href="javascript:;">腾讯微博</a>
+							<a href="javascript:;">人人公众主页</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--======================购物车=================-->
+		<div class="header_wrapdad">
+			<div class="header_wrap">
+				<div class="paycar">
+					<a href="shopcart.html" target="_blank" class="pay_logo">
+						<span id="">去购物车结算</span>
+					<span></span>
+					</a>
+				</div>
+				<a href="javascript:;" class="logo">
+				</a>
+			</div>
+		</div>
+		
+		<!--===============焦点图===================-->
+		<div class="banner">
+			<div id="home_foucs">
+				<div class="slide_control">
+					<a href="javascroipt:;">1</a>
+					<a href="javascroipt:;">2</a>
+					<a href="javascroipt:;">3</a>
+				</div>
+				<ul>
+					<li><a href="banner.html" target="_blank"></a></li>
+					<li><a href="banner.html" target="_blank"></a></li>
+					<li><a href="banner.html" target="_blank"></a></li>
+				</ul>
+				
+			</div>
+			<strong class="control_l">＜</strong>
+			<strong class="control_r">＞ </strong>
+		</div>
+		<!--图片列表===============-->
+		<div class="home_pic_list">
+			<div class="home_ad_list">
+			</div>
+		</div>
+		<!--服务========================-->
+		<div class="box_list">
+			<div><a href="javascript:;"></a></div>
+			<div><a href="javascript:;"></a></div>
+			<div><a href="javascript:;"></a></div>
+			<div><a href="javascript:;"></a></div>
+		</div>
+		<!--//上新-->
+		<div class="index_title"></div>
+		<!--详细上新-->
+		<div class="new_detail">
+			<div class="detail_left">
+				<a href="javascript:;" class="detail_a">
+					<img src="../imgs/detail1.jpg"/>
+				</a>
+			</div>
+			<div class="detail_right">
+				<a href="javascript:;">
+					<div class="detail_right_logo">
+						<div class="detail_right_logo_l">
+							<img src="../imgs/021_flag.jpg"/>
+							<ul>
+								<li>Korea</li>
+								<li>韩国品牌</li>
+							</ul>
+						</div>
+						<div class="detail_right_logo_r">
+							<span>距结束还剩</span>
+							<span class="detail_time">
+								<em>0</em>天
+								<em>0</em>时
+								<em>0</em>分
+								<em>0</em>秒
+							</span>
+						</div>
+					</div>
+					<p class="detail_right_p1">
+						<span> 赫拉限量版粉色樱花季气垫bb</span>
+					</p>
+					<p class="detail_right_p2"> 2016HERA大事件来袭！即2015年的铅笔限量版之后，2016高调与NICHOLAS KIRKWOOD推出合作款！赫拉限量版蓝色樱花季气垫BB 2色可选，被誉为美的不可方物之作！专为春夏打造，SPF50+/PA+++的防晒值与-2°C降温效果轻松妆夏天；细密气孔打造薄而透明的烛光肤感~ </p>
+				</a>
+				<div class="detail_price">
+					<div class="price_num">
+						<strong>
+							<span>¥</span>
+							299
+						</strong>
+					</div>
+					<div class="detail_total">
+						<span>
+							<em>993</em>
+							人已购买
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="detail_box"></div>
+		</div>
+		<!--瀑布流===============================-->
+		<!--<div class="pbl">
+			<a href="javascript:;" class="pbl_img">
+				<img src="../imgs/021_flag.jpg" class="pbl_logo"/>
+				<img src="../imgs/pbl1.jpg" class="pbl_detail"/>
+			</a>
+			<a href="javascript:;">
+				<div class="pbl_layout">
+					<p class="pbl_detail_d">it's skin晶钻蜗牛乳液清爽型，用后转死粉的韩国修复。</p>
+					<div class="pbl_price">
+						<div class="pbl_price_a">
+							<em><span>¥</span>129</em>
+							<strong class="pbl_price_a_rmb"><span>¥</span>199</strong>
+						</div>
+						<div class="pbl_price_b">
+							<span><em>2222</em>人已购买</span>
+						</div>
+						<div class="pbl_price_c">
+							距结束还剩:
+							<span class="pbl_price_c_time">
+								<em>0</em>天
+								<em>0</em>时
+								<em>0</em>分
+								<em>0</em>秒
+							</span>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>-->
+		<!--底部footer-->
+		<div class="footer_bottom">
+			<div class="footer_container">
+				<div class="footer_container_l">
+					<h2>极速免税保障店</h2>
+					<ul>
+						<li><a href="javascript:;">海外直邮</a></li>
+						<li><a href="javascript:;">无忧保障</a></li>
+					</ul>
+				</div>
+				<div class="footer_container_l">
+					<h2>新手帮助</h2>
+					<ul>
+						<li><a href="javascript:;">常见问题</a></li>
+						<li><a href="javascript:;">违规争议处理</a></li>
+					</ul>
+				</div>
+				<div class="footer_container_l">
+					<h2>相关条款</h2>
+					<ul>
+						<li><a href="javascript:;">极速免税招商</a></li>
+						<li><a href="javascript:;">服务条款协议</a></li>
+						<li><a href="javascript:;">用户服务协议</a></li>
+					</ul>
+				</div>
+				<div class="footer_container_l footer_kefu">
+					<h2>客服联系方式</h2>
+					<ul>
+						<li class="footer_tel"><a href="javascript:;">400-123-8888</a></li>
+						<li class="footer_per"><a href="javascript:;">点击咨询在线客服</a></li>
+						<li><a href="javascript:;">客服工作时间7×24小时</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--弹出框、遮罩层-->
+		<div class="mask"></div>
+		<div class="overDiv">
+			<div class="overDiv_t">
+				<span class="overDiv_text">请您选择咨询类型</span>
+				<span class="overDiv_close">×</span>
+			</div>
+			<div class="overDiv_con">
+				<li class="li_on li_on_hover">
+					<span>售前咨询</span>
+					<div class="li_on_div">
+						<a href="javascript:;" >服饰</a>
+						<a href="javascript:;" >化妆品</a>
+						<a href="javascript:;" >母婴</a>
+						<a href="javascript:;" >轻奢</a>
+					</div>
+				</li>
+				<li class="li_on li_on_hover">
+					<span>售后服务</span>
+					<div class="li_on_div">
+						<a href="javascript:;" >快递咨询</a>
+						<a href="javascript:;" >退货</a>
+						<a href="javascript:;" >产品问题</a>
+					</div>
+				</li>
+				<li class="li_on li_on_a"><a href="javascript:;">会员服务</a></li>
+				<li class="li_on li_on_a"><a href="javascript:;">投诉建议</a></li>
+			</div>
+		</div>
+	</body>
+	
+</html>

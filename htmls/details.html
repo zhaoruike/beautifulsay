@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/details.css"/>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/details.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--==============头部====================-->
+		<!--<div id="detail_head"></div>-->
+		<!--========================右侧导航栏====================-->
+		<div class="nav_right">
+			<ul class="nav_right_top">
+				<li class="nav_right_login">
+					<a href="javascript:;" class="nav_a" >
+						<span class="nva_a_bg" id="login" ></span>
+					</a>
+					<div class="nav_login">
+						<div class="nav_login_logo">
+							<p class="pImg"><img src="../imgs/nav_login.jpg"/></p>
+							<p class="pText">你好！请<a href="login.html" target="_blank">登录</a>|<a href="register.html" target="_blank">注册</a></p>
+						</div>
+						<div class="nav_btn">
+							<a href="javascript:;" class="nav_myorder">我的订单</a>
+							<a href="javascript:;"  class="nav_myfav">我的收藏</a>
+						</div>
+						<p class="er_sj login_sj"></p>
+						<a class="close"></a>
+					</div>
+				</li>
+				<li class="nav_right_cart">
+					<a href="javascript:;"  class="nav_a " id="shopcart" >
+						<span></span>
+						<em class="text">购物车</em>
+						<strong id="shopping_num">0</strong>
+					</a>
+				</li>
+				<li class="nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="caichan"></span>
+					</a>
+					<div class="my_qianbao">我的财产<p class="sanjiao"></p></div>
+				</li>
+				<li class="nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="xinyuan"></span>
+					</a>
+					<div class="my_qianbao">我的心愿单<p class="sanjiao"></p></div>
+				</li>
+			</ul>
+			<ul class="nav_right_b">
+				<li class="nav_ewm nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span  class="nva_a_bg" id="ewm"></span>
+					</a>
+					<div class="nav_ewm_pic"><img src="../imgs/phone_ewm.png"/><p class="er_sj"></p></div>
+				</li>
+				<li class="nav_qianbao" id="mask">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="kefu"></span>
+					</a>
+					<div class="my_qianbao">客服中心<p class="sanjiao"></p></div>
+				</li>
+				<li class="nav_qianbao" id="toTop">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="dingbu"></span>
+					</a>
+					<div class="my_qianbao" >返回顶部<p class="sanjiao"></p></div>
+				</li>
+			</ul>
+			<div class="buycart">
+				<div class="buycart_1">
+					<span>购物车</span>
+					<span class="car_close">×</span>
+				</div>
+				<div class="buycart_2">
+					<div class="buycar_em"></div>
+				</div>
+			</div>
+		</div>
+		<!--======================================顶部导航=======================================-->
+		<div class="header">
+			<div class="header_header">
+				<ul class="headerl">
+					<li><a href="javascript:;"><img src="../imgs/smalllogo.png"/></a></li>
+					<li><a href="javascript:;">限时特卖</a></li>
+					<li><a href="javascript:;">美妆商城</a></li>
+					<li><a href="javascript:;">极速免税店</a></li>
+					<li class="header_more">
+						<a href="javascript:;"  class="header_a">
+							美妆口碑
+							<strong class="header_shadow"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">美妆大全</a>
+							<a href="javascript:;">口碑</a>
+							<a href="javascript:;">free派</a>
+							<a href="javascript:;">喜从盒来</a>
+							<a href="javascript:;">我的闺房</a>
+						</div>
+					</li>
+					<li><a href="javascript:;">手机聚美</a></li>
+					<li class="header_more" style="background: none;">
+						<a href="javascript:;" class="header_a">
+							正品保证
+							<strong class="header_shadow"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">真品联盟</a>
+							<a href="javascript:;">正品鉴定</a>
+							<a href="javascript:;">常见问题</a>
+							<a href="javascript:;">退货政策</a>
+							<a href="javascript:;">帮助中心</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="headerr">
+					<li><a href="login.html" target="_blank">登录</a></li>
+					<li><a href="register.html" target="_blank">注册</a></li>
+					<li><a href="javascript:;">订单查询</a></li>
+					<li  class="header_more">
+						<a href="javascript:;" class="header_a">
+							我的聚美
+							<strong class="header_shadow"></strong>
+						</a>
+							<div class="menu_list">
+								<a href="javascript:;">我的订单</a>
+								<a href="javascript:;">我的现金券</a>
+								<a href="javascript:;">我的红包</a>
+								<a href="javascript:;">我的余额</a>
+								<a href="javascript:;">我的提现退款</a>
+							</div>
+						
+					</li>
+					<li style="background: none;"  class="header_more">
+						<a href="javascript:;" class="header_a">
+							更多
+							<strong class="header_shadow1"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">邀请好友</a>
+							<a href="javascript:;">添加收藏</a>
+							<a href="javascript:;">新浪微博</a>
+							<a href="javascript:;">聚美微信</a>
+							<a href="javascript:;">腾讯微博</a>
+							<a href="javascript:;">人人公众主页</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--======================购物车=================-->
+		<div class="header_wrapdad">
+			<div class="header_wrap">
+				<div class="paycar">
+					<a href="shopcart.html" target="_blank" class="pay_logo">
+						<span id="">去购物车结算</span>
+					<span></span>
+					</a>
+				</div>
+				<a href="javascript:;" class="logo">
+				</a>
+			</div>
+		</div>
+		
+		<!--=================主体部分=======================-->
+		<div id="body">
+			<div class="detail_box1">
+				<div class="detail_main">
+					<div class="detail_main_l">
+						<div class="l_title">
+							<p><strong></strong>
+                                        彩妆大师pony推荐减龄装备，上市后受韩国MM疯狂追捧的好货，爱茉莉出品双头多功能卧蚕笔，ARITAUM 双头珠光卧蚕笔，双头设计，一头阴影，一头珠光粉，分分钟打造自然可爱的迷人泪眼妆哦~一支多用超实用，可用来画卧蚕、眼影、眉笔、阴影 、眼线~减龄必get哦~                </p>
+						</div>
+						<div class="time_count">
+							<div class="time_count_main">
+								<span>距特卖结束</span>
+								<span><em>1</em>天<span>12<em>:</em>23<em>:</em>32<em>:</em>34</span></span>
+							</div>
+							<div class="time_count_img">
+								<img src="../imgs/details/time_count.jpg" />
+							</div>
+						</div>
+						<div class="l_info">
+							<div class="l_info_list"><a href="javascript:;">修容</a></div>
+							<div class="l_info_share"><a href="javascript:;">分享到></a></div>
+						</div>
+					</div>
+					<div class="detail_main_r">
+						<div class="r_logo">
+							<a href="javascript:;"><img src="../imgs/details/LOGO.jpg" /></a>
+							<div class="r_logo_country">
+								<img src="../imgs/details/logo2.jpg"/>
+								<ul class="country_list">
+									<li>韩国</li>
+									<li>Korea</li>
+								</ul>
+							</div>
+						</div>
+						<div class="r_second">
+							<div class="r_price">
+								<div class="r_price_1">
+									<span>¥</span><i>49</i>
+								</div>
+								<div class="r_price_2">
+									<span>¥</span><i>89</i>
+								</div>
+								<div class="r_price_3">
+									<span class="price_clear">套餐价格明细></span>
+									<div class="price_list">
+										<span class="jiao"></span>
+										<span class="jiao2"></span>
+										<div class="price_list_main">
+											<div class="price_list_tit">
+												<p class="detail_tit">超值套装搭配 : <span>NEOGEN DERMALOGY深海肌源水分睡眠面膜</span></p>
+												<p>价格组成 : 货价 + 税价(增值税 + 消费税)</p>
+											</div>
+											<div class="price_list_main1">
+												<div class="list_main">
+													<div class="list_main_l">
+														<img src="../imgs/details/list_main_l.jpg" />
+														<p>ARITAUM 双头珠光卧蚕笔</p>
+														<p>×1</p>
+													</div>
+													<div class="list_main_l list_main_r">
+														<img src="../imgs/details/list_main_r.jpg" />
+														<p>NEOGEN DERMALOGY深海肌源水分睡眠面膜</p>
+														<p>×1</p>
+													</div>
+													<div class="plus">+</div>
+													<span class="kucun">库存有限请按照购物车内商品为准</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="how_many">
+							<div>已购买人数 
+								<strong>666</strong>
+							</div>
+						</div>
+						<div class="r_service">
+							<p>包邮政策：<span>满299元或2件包邮</span></p>
+							<p>服务政策：<span>7天拆封无理由退货</span></p>
+							<div class="r_service_p3 xinghao"><em>型</em>号：</div>
+							<div class="section_xh">
+								<div class="section_con">请选择型号</div>
+								<strong class="down_sanjiao"></strong>
+								<ul class="xuanze">
+									<li>珠光粉，0.2g/0.5g</li>
+									<li>香槟金,0.2g+0.5g</li>
+								</ul>
+							</div>
+						</div>
+						<div class="r_forth">
+							<a href="javascript:;" class="add_shopcar">加入购物车></a>
+						</div>
+					</div>
+				</div>
+				<div class="r_service_detail">
+						<div class="r_service_detail_s">
+							<div class="service_de_1">
+								<div class="service_t"></div>
+								<div class="service_b"><a href="javascript:;"></a></div>
+							</div>
+						</div>
+						<div class="r_service_detail_s f1">
+							<div class="service_de_1">
+								<div class="service_t"></div>
+								<div class="service_b"><a href="javascript:;"></a></div>
+							</div>
+						</div>
+						<div class="r_service_detail_s f2">
+							<div class="service_de_1">
+								<div class="service_t"></div>
+								<div class="service_b"><a href="javascript:;"></a></div>
+							</div>
+						</div>
+						<div class="r_service_detail_s f3">
+							<div class="service_de_1">
+								<div class="service_t"></div>
+								<div class="service_b"><a href="javascript:;"></a></div>
+							</div>
+						</div>
+					</div>
+				<div class="shop_detial">
+					<div class="shop_detial_con">
+						<div class="shop_detial_1"></div>
+						<div class="shop_detial_2"><img src="../imgs/details/shop_detail2.jpg" /></div>
+						<div class="shop_detial_3"></div>
+						<div class="shop_detial_4">
+							<img src="../imgs/details/shop_detail41.jpg" />
+							<img src="../imgs/details/shop_detail42.jpg" />
+							<img src="../imgs/details/shop_detail43.jpg" />
+							<img src="../imgs/details/shop_detail44.jpg" />
+							<img src="../imgs/details/shop_detail45.jpg" />
+							<img src="../imgs/details/shop_detail46.jpg" />
+							<img src="../imgs/details/shop_detail47.jpg" />
+							<img src="../imgs/details/shop_detail48.jpg" />
+							<img src="../imgs/details/shop_detail49.jpg" />
+						</div>
+						<div class="shop_detial_5"></div>
+						<div class="shop_detial_4">
+							<img src="../imgs/details/shop_detail41.jpg" />
+							<img src="../imgs/details/shop_detail42.jpg" />
+							<img src="../imgs/details/shop_detail43.jpg" />
+							<img src="../imgs/details/shop_detail44.jpg" />
+							<img src="../imgs/details/shop_detail45.jpg" />
+							<img src="../imgs/details/shop_detail46.jpg" />
+							<img src="../imgs/details/shop_detail47.jpg" />
+							<img src="../imgs/details/shop_detail48.jpg" />
+							<img src="../imgs/details/shop_detail49.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--==============底部===========-->
+		<div id="detail_footer"></div>
+	</body>
+	
+</html>

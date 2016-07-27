@@ -1,0 +1,24 @@
+html, body, div, p, ul, li, h2, span, em, a, span, strong, img {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    font-size: 12px;
+    background: #f7f7f7;
+    font-family: "微软雅黑";
+}
+
+img {
+    border: none;
+}
+
+/*html,body,div,p,ul,li,h2,span,em,a,span,strong,img*/

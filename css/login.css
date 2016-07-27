@@ -1,0 +1,528 @@
+div, a, p, h1, input, span, strong, label, form, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+.header {
+    height: 85px;
+    width: 100%;
+    background: #fff;
+}
+
+.logo {
+    width: 960px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.logo_l {
+    width: 360px;
+    height: 85px;
+    overflow: hidden;
+    background: url(../imgs/login/logo.jpg) no-repeat top left;
+    display: block;
+    float: left;
+}
+
+.logo_r {
+    float: right;
+    width: 462px;
+    height: 31px;
+    padding-top: 35px;
+}
+
+.logo_r_1 {
+    width: 110px;
+    height: 31px;
+    float: right;
+    margin-right: 24px;
+    overflow: hidden;
+    background-image: url(../imgs/login/logo_bg.png);
+    background-repeat: no-repeat;
+}
+
+.logo_r_r {
+    background-position: 0 -64px;
+}
+
+.logo_r_l {
+    background-position: 0 0;
+}
+
+.logo_r_2 {
+    background: url(../imgs/login/ligo_bg_2.png) no-repeat 50% 0 transparent;
+    width: 170px;
+    height: 31px;
+    padding-right: 24px;
+    display: block;
+    float: right;
+}
+
+/*============================================登录======================================*/
+.sign {
+    width: 100%;
+    height: 418px;
+}
+
+.main {
+    width: 965px;
+    height: 418px;
+    margin: 50px auto;
+}
+
+.main_image {
+    width: 960px;
+    height: 360px;
+    background: url(../imgs/login/sign.jpg) no-repeat;
+    position: relative;
+}
+
+.main_right {
+    width: 310px;
+    height: 418px;
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0, 07) 0 0 4px;
+    border: 0;
+    border: 1px solid red;
+}
+
+.main_right_1 {
+    width: 310px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.main_right_1 div {
+    width: 146px;
+    height: 60px;
+    float: left;
+    color: rgb(150, 150, 150);
+    line-height: 60px;
+}
+
+.main_right_1 div a {
+    color: rgb(237, 20, 91);
+    line-height: 60px;
+}
+
+.main_right_1 h1 {
+    width: 164px;
+    height: 60px;
+    float: left;
+    font-size: 20px;
+    color: rgb(227, 18, 86);
+    line-height: 60px;
+}
+
+.main_right_2 {
+    width: 310px;
+    height: 30px;
+}
+
+.phone_sign {
+    padding-right: 30px;
+    color: rgb(51, 51, 51);
+    height: 14px;
+    line-height: 14px;
+}
+
+.phone_sign input {
+    margin: 0 3px 0 5px;
+    border: 2px inset;
+    vertical-align: middle;
+}
+
+.phone_sign label {
+    line-height: 1.5;
+}
+
+.main_right_3 {
+    width: 310px;
+    height: 212px;
+}
+
+.form_1 {
+    width: 310px;
+    height: 44px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.form_1 input {
+    width: 232px;
+    padding-left: 38px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px 38px;
+    background: url(../imgs/login/form.png) no-repeat 5px 0;
+    font-size: 14px;
+    height: 21px;
+}
+
+.ifError {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 4px;
+    color: rgb(153, 153, 153);
+    display: none
+}
+
+.move_num {
+    width: 310px;
+    height: 44px;
+    margin: 10px 0 30px;
+}
+
+.move_num_l {
+    width: 136px;
+    height: 44px;
+    position: relative;
+    float: left;
+}
+
+.move_num_l input {
+    width: 58px;
+    height: 21px;
+    background: url(../imgs/login/form.png) no-repeat 5px -50px;
+    padding: 10px 38px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.ifError1 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 4px;
+    color: rgb(153, 153, 153);
+    display: block
+}
+
+/*===========================获取验证码=====================*/
+.get_num {
+    width: 140px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    border: 1px solid rgb(217, 217, 217);
+    padding: 0 8px;
+    background: linear-gradient(rgb(252, 252, 252), rgb(242, 242, 242));
+    display: block;
+    font-weight: bold;
+    float: right;
+}
+
+/*=====================普通登录===================*/
+.form_1R {
+    display: none;
+}
+
+.passwd_dad {
+    display: none;
+}
+
+.passwd {
+    width: 310px;
+    height: 44px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.pwd_num {
+    width: 232px;
+    height: 21px;
+    background: url(../imgs/login/form.png) no-repeat 5px -50px;
+    padding: 10px 38px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.log_r {
+    display: none;
+}
+
+.putong_r {
+    display: none;
+}
+
+/*=====================验证码==========================*/
+.check_word {
+    width: 310px;
+    height: 159px;
+    display: none;
+}
+
+.check_tip {
+    width: 310px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.check_con {
+    width: 308px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.check_con_1 {
+    width: 51px;
+    height: 40px;
+    background-image: url(../imgs/login/check_word1.gif);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.c1 {
+    background-position: -3px -50px;
+}
+
+.c2 {
+    background-position: -62px -50px;
+}
+
+.c3 {
+    background-position: -119px -50px;
+}
+
+.c4 {
+    background-position: -3px -92px;
+}
+
+.c5 {
+    background-position: -62px -92px;
+}
+
+.c6 {
+    background-position: -119px -92px;
+}
+
+.check_in {
+    width: 310px;
+    height: 42px;
+    margin-top: 20px;
+}
+
+.check_in_l {
+    width: 161px;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    float: left;
+}
+
+.check_in_c {
+    width: 40px;
+    height: 40px;
+    border-right: 1px solid rgb(207, 207, 207);
+    float: left;
+}
+
+.check_min {
+    width: 38px;
+    height: 40px;
+    background: url(../imgs/login/check_in.jpg);
+    float: left;
+}
+
+.check_con_r {
+    width: 80px;
+    height: 40px;
+    margin-left: 4px;
+    background: url(../imgs/login/check_word1.gif);
+    cursor: pointer;
+    float: left;
+}
+
+.change {
+    width: 36px;
+    height: 42px;
+    display: block;
+    color: rgb(237, 20, 91);
+    float: left;
+    line-height: 42px;
+    margin-left: 4px;
+}
+
+/*=======================登录==============================*/
+.main_login {
+    width: 310px;
+    height: 18px;
+    margin: 10px 0;
+    color: rgb(51, 51, 51);
+    line-height: 18px;
+}
+
+.main_login auto_login {
+    margin: 3px;
+    vertical-align: middle;
+}
+
+.submit_btn {
+    width: 100%;
+    height: 40px;
+    background: rgb(248, 41, 109);
+    border: 0;
+    padding: 0 30px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*===================更多登录方式==================*/
+.main_right_4 {
+    width: 310px;
+    height: 76px;
+}
+
+.main_right_4 strong {
+    width: 310px;
+    height: 18px;
+    padding: 5px 0 10px;
+    font-weight: normal;
+    display: block;
+    margin-top: 10px;
+}
+
+.main_right_4 p a {
+    width: 43px;
+    height: 43px;
+    margin-right: 12px;
+    float: left;
+    background-image: url(../imgs/login/more_login.jpg);
+    background-repeat: no-repeat;
+}
+
+.more_login1 {
+    background-position: 0 0;
+}
+
+.more_login2 {
+    background-position: -57px 0;
+}
+
+.more_login3 {
+    background-position: -114px 0;
+}
+
+.more_login4 {
+    background-position: -169px 0;
+}
+
+.more_login5 {
+    background-position: -224px 0;
+}
+
+.main_right_4 p span {
+    width: 24px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-top: 5px;
+    display: block;
+    position: relative;
+}
+
+.main_right_4 p span i {
+    background: url(../imgs/login/more_login.jpg) no-repeat -274px -23px;
+    width: 18px;
+    height: 17px;
+    display: inline-block;
+    position: absolute;
+    left: 27px;
+    top: 6px;
+    cursor: pointer;
+}
+
+/*====================footer=============================*/
+.footer {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.footer_con {
+    width: 1090px;
+    height: 134px;
+    padding-bottom: 80px;
+    line-height: 20px;
+    text-align: center;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.footer_text {
+    width: 1090px;
+    height: 46px;
+    line-height: 23px;
+    padding: 14px 0 18px;
+}
+
+.footer_text a {
+    color: #000;
+}
+
+.friend_web {
+    width: 1090px;
+    height: 56px;
+}
+
+.friend_web a {
+    display: inline-block;
+    width: 126px;
+    height: 50px;
+    margin-right: 8px;
+    background-image: url(../imgs/login/frieng_web.png);
+    background-repeat: no-repeat;
+    margin: 0 4px;
+    border-bottom: 1px solid #ccc;
+}
+
+.a2 {
+    background-position: -126px 0;
+}
+
+.a3 {
+    background-position: -252px 0;
+}
+
+.a4 {
+    background-position: -378px 0;
+}
+
+.a5 {
+    background-position: -504px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

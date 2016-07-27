@@ -1,0 +1,465 @@
+div, a, p, h1, input, span, strong, label, form, body, i, h1, table, h2, td, tr, th {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+/*头部*/
+.shop_header {
+    width: 100%;
+    height: 99px;
+}
+
+.sh_he_1 {
+    width: 960px;
+    height: 32px;
+    color: #999;
+    margin: 0 auto;
+    position: relative;
+}
+
+.welcome {
+    width: 183px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 32px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome a {
+    color: rgb(237, 20, 91);
+    float: right;
+}
+
+.welcome span {
+    padding: 0 2px;
+    color: #ddd;
+    float: right;
+}
+
+.sh_logo {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #e5e5e5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+
+.sh_logo_main {
+    width: 960px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.sh_logo_main h1 {
+    width: 255px;
+    height: 50px;
+    float: left;
+}
+
+.oarder_list {
+    width: 377px;
+    height: 48px;
+    background: url(../imgs/shop/oarder.png) no-repeat -2px -2px;
+    float: right;
+}
+
+.sh_main {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.sh_main_c {
+    width: 960px;
+    height: 255px;
+    margin: 0 auto;
+}
+
+.sh_main_c_1 {
+    width: 960px;
+    height: 53px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.sh_tip {
+    width: 317px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.sh_timeout {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    height: 18px;
+}
+
+.sh_icon {
+    width: 18px;
+    height: 18px;
+    background: url(../imgs/shop/sh_time.png) no-repeat -8px -5px;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: -5px;
+}
+
+.sh_banner {
+    width: 393px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 30px;
+}
+
+.sh_banner_1 {
+    width: auto;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.sh_banner_1 span {
+    background-image: url(../imgs/shop/sh_banner.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 25px;
+    display: inline-block;
+}
+
+.s1 {
+    background-position: 0 -107px;
+}
+
+.s2 {
+    background-position: 0 -142px;
+}
+
+.s3 {
+    background-position: 0 -177px;
+}
+
+.huodong {
+    width: 960px;
+    height: 18px;
+    color: rgb(250, 136, 1);
+}
+
+.huodong i {
+    width: 35px;
+    height: 18px;
+    background: url(../imgs/shop/sh_time.png) no-repeat -2px -86px;
+    display: inline-block;
+    font-style: normal;
+    line-height: 18px;
+    text-align: center;
+}
+
+.sh_main_c_2 {
+    width: 960px;
+    height: 168px;
+}
+
+.main_detail {
+    margin: 10px 0px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    width: 959px;
+    height: 167px;
+    border-collapse: collapse;
+}
+
+.biaoti {
+    width: 959px;
+    height: 34px;
+}
+
+.biaoti th {
+    border-bottom: 1px solid #eee;
+    background: #fafafa;
+}
+
+.first_t {
+    height: 34px;
+    width: 56%;
+}
+
+.head_tit {
+    height: 34px;
+    line-height: 34px;
+    width: 56%;
+    border-left: 5px solid rgb(237, 20, 91);
+    text-align: left;
+}
+
+.head_tit input {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.head_tit h2 {
+    width: 240px;
+    height: 34px;
+    float: left;
+}
+
+.shop_list {
+    border-bottom: 1px dotted #ddd;
+    border-collapse: collapse;
+    height: 100px;
+    width: 959px;
+}
+
+.good_name {
+    width: 537px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.on_check {
+    float: left;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 50px;
+    margin-left: 15px;
+}
+
+.good_con {
+    margin: 0 0 0 30px;
+    padding: 20px 0 0;
+    padding-left: 11px;
+    width: 496px;
+    height: 80px;
+    float: left;
+}
+
+.good_logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 20px 0;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.good_logo img {
+    width: 60px;
+    height: 60px;
+}
+
+/*.good_con p{line-height: 22px;height: 22px;}*/
+.p1 span {
+    color: #851b97
+}
+
+.p1 a {
+    color: #000
+}
+
+.p2 {
+    color: #999;
+}
+
+.good_price {
+    width: 116px;
+    height: 100px;
+}
+
+.good_price p {
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.good_price div {
+    width: 100px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.price_past {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.good_count {
+    width: 115px;
+    height: 100px;
+}
+
+.plus_btn {
+    width: 75px;
+    height: 60px;
+    padding: 20px;
+}
+
+.plus_btn div {
+    width: 74px;
+    height: 22px;
+}
+
+.plus_btn span {
+    width: 20px;
+    height: 20px;
+    background: #f1f1f1;
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    float: left;
+}
+
+.plus_btn input {
+    width: 30px;
+    height: 20px;
+    border-top: 1px solid;
+    float: left;
+    border-bottom: 1px solid;
+    border-color: #e0e0e0;
+    text-align: center;
+}
+
+.good_save {
+    width: 95px;
+    height: 100px;
+}
+
+.save_money {
+    width: 95px;
+    height: 60px;
+}
+
+.money_total {
+    color: #ed145b;
+    margin-bottom: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.save_p2 {
+    text-align: center;
+}
+
+.good_del {
+    width: 82px;
+    height: 100px;
+}
+
+.good_del div {
+    width: 42px;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.good_del div a {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background-image: url(../imgs/shop/sh_time.png);
+    background-repeat: no-repeat;
+    background-position: -7px -27px;
+    display: block;
+    margin-left: 12px;
+}
+
+.good_footer {
+    width: 959px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+    border-collapse: collapse;
+}
+
+.goods_total {
+    width: 959px;
+    height: 30px;
+    color: #999;
+}
+
+.good_jiesuan {
+    width: 958px;
+    height: 48px;
+    margin: 10px 0;
+    line-height: 48px;
+    border: 1px solid #eee;
+    background: #fafafa;
+}
+
+.jiesuan_r {
+    float: right;
+}
+
+.jiesuan_r span {
+    color: #ed145b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn_jiesuan {
+    width: 145px;
+    height: 100%;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    background: -webkit-linear-gradient(top, #fa417d, #f0145c);
+    display: inline-block;
+    text-align: center;
+}
+
+.all_check {
+    margin-left: 15px;
+    height: 48px;
+    line-height: 48px;
+    width: 41px;
+    display: inline-block;
+}
+
+.shop_continue {
+    margin-left: 20px;
+    color: #333;
+    margin-right: 2px;
+}
+
+.clear_all {
+    margin: 0 2px;
+    color: #333;
+}
+
+#shop_footer {
+    clear: both;
+}
+
+
+
+

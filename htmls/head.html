@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--========================右侧导航栏====================-->
+		<div class="nav_right">
+			<ul class="nav_right_top">
+				<li class="nav_right_login">
+					<a href="javascript:;" class="nav_a" >
+						<span class="nva_a_bg" id="login" ></span>
+					</a>
+					<div class="nav_login">
+						<div class="nav_login_logo">
+							<p class="pImg"><img src="../imgs/nav_login.jpg"/></p>
+							<p class="pText">你好！请<a href="login.html" target="_blank" class="login_head">登录</a>|<a href="register.html" target="_blank">注册</a></p>
+						</div>
+						<div class="nav_btn">
+							<a href="javascript:;" class="nav_myorder">我的订单</a>
+							<a href="javascript:;"  class="nav_myfav">我的收藏</a>
+						</div>
+						<p class="er_sj login_sj"></p>
+						<a class="close"></a>
+					</div>
+				</li>
+				<li class="nav_right_cart">
+					<a href="javascript:;"  class="nav_a " id="shopcart" >
+						<span></span>
+						<em class="text">购物车</em>
+						<strong id='shop_num'>0</strong>
+					</a>
+				</li>
+				<li class="nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="caichan"></span>
+					</a>
+					<div class="my_qianbao">我的财产<p class="sanjiao"></p></div>
+				</li>
+				<li class="nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="xinyuan"></span>
+					</a>
+					<div class="my_qianbao">我的心愿单<p class="sanjiao"></p></div>
+				</li>
+			</ul>
+			<ul class="nav_right_b">
+				<li class="nav_ewm nav_qianbao">
+					<a href="javascript:;" class="nav_a">
+						<span  class="nva_a_bg" id="ewm"></span>
+					</a>
+					<div class="nav_ewm_pic"><img src="../imgs/phone_ewm.png"/><p class="er_sj"></p></div>
+				</li>
+				<li class="nav_qianbao" id="mask">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="kefu"></span>
+					</a>
+					<div class="my_qianbao">客服中心<p class="sanjiao"></p></div>
+				</li>
+				<li class="nav_qianbao" id="toTop">
+					<a href="javascript:;" class="nav_a">
+						<span class="nva_a_bg" id="dingbu"></span>
+					</a>
+					<div class="my_qianbao" >返回顶部<p class="sanjiao"></p></div>
+				</li>
+			</ul>
+			<div class="buycart">
+				<div class="buycart_1">
+					<span>购物车</span>
+					<span class="car_close">×</span>
+				</div>
+				<div class="buycart_2">
+					<div class="buycar_em"></div>
+				</div>
+			</div>
+		</div>
+		<!--======================================顶部导航=======================================-->
+		<div class="header">
+			<div class="header_header">
+				<ul class="headerl">
+					<li><a href="javascript:;"><img src="../imgs/smalllogo.png"/></a></li>
+					<li><a href="javascript:;">限时特卖</a></li>
+					<li><a href="javascript:;">美妆商城</a></li>
+					<li><a href="javascript:;">极速免税店</a></li>
+					<li class="header_more">
+						<a href="javascript:;"  class="header_a">
+							美妆口碑
+							<strong class="header_shadow"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">美妆大全</a>
+							<a href="javascript:;">口碑</a>
+							<a href="javascript:;">free派</a>
+							<a href="javascript:;">喜从盒来</a>
+							<a href="javascript:;">我的闺房</a>
+						</div>
+					</li>
+					<li><a href="javascript:;">手机聚美</a></li>
+					<li class="header_more" style="background: none;">
+						<a href="javascript:;" class="header_a">
+							正品保证
+							<strong class="header_shadow"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">真品联盟</a>
+							<a href="javascript:;">正品鉴定</a>
+							<a href="javascript:;">常见问题</a>
+							<a href="javascript:;">退货政策</a>
+							<a href="javascript:;">帮助中心</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="headerr">
+					<li><a href="login.html" target="_blank">登录</a></li>
+					<li><a href="register.html" target="_blank">注册</a></li>
+					<li><a href="javascript:;">订单查询</a></li>
+					<li  class="header_more">
+						<a href="javascript:;" class="header_a">
+							我的聚美
+							<strong class="header_shadow"></strong>
+						</a>
+							<div class="menu_list">
+								<a href="javascript:;">我的订单</a>
+								<a href="javascript:;">我的现金券</a>
+								<a href="javascript:;">我的红包</a>
+								<a href="javascript:;">我的余额</a>
+								<a href="javascript:;">我的提现退款</a>
+							</div>
+						
+					</li>
+					<li style="background: none;"  class="header_more">
+						<a href="javascript:;" class="header_a">
+							更多
+							<strong class="header_shadow1"></strong>
+						</a>
+						<div class="menu_list">
+							<a href="javascript:;">邀请好友</a>
+							<a href="javascript:;">添加收藏</a>
+							<a href="javascript:;">新浪微博</a>
+							<a href="javascript:;">聚美微信</a>
+							<a href="javascript:;">腾讯微博</a>
+							<a href="javascript:;">人人公众主页</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--======================购物车=================-->
+		<div class="header_wrapdad">
+			<div class="header_wrap">
+				<div class="paycar">
+					<a href="shopcart.html" target="_blank" class="pay_logo">
+						<span id="">去购物车结算</span>
+					<span></span>
+					</a>
+				</div>
+				<a href="index.html" class="logo">
+				</a>
+			</div>
+		</div>
+		
+	</body>
+</html>

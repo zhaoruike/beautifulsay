@@ -1,0 +1,209 @@
+div, a, p, h1, input, span, strong, label, form, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+.re_sign {
+    width: 100%;
+}
+
+.re_main {
+    width: 965px;
+    height: 460px;
+    margin: 120px auto 70px;
+}
+
+.re_img {
+    width: 960px;
+    height: 370px;
+    background: url(../imgs/rigister/logo_bg.jpg);
+    position: relative;
+}
+
+.img_click {
+    width: 420px;
+    height: 370px;
+    display: block;
+    position: absolute;
+}
+
+.img_r {
+    width: 310px;
+    height: 377px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .075);
+    padding: 0 23px;
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+
+.img_r_1 {
+    width: 310px;
+    height: 60px;
+    margin-bottom: 15px;
+    line-height: 60px;
+}
+
+.img_r_1 strong {
+    width: 100px;
+    height: 60px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #e31256;
+}
+
+.img_r_1 p {
+    display: block;
+    width: 96px;
+    height: 60px;
+    float: right;
+    color: #969696;
+}
+
+.img_r_1 p a {
+    color: #ed145b;
+}
+
+.ifError {
+    display: none;
+}
+
+.form_r {
+    width: 301px;
+    height: 402px;
+}
+
+.re_user {
+    width: 302px;
+    height: 43px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.re_user input {
+    width: 284px;
+    height: auto;
+    border: 1px solid #CFCFCF;
+    padding: 10px 8px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.re_user_tip, .re_pwdtip, .re_passwdtip, .re_passwd2 {
+    color: #999;
+    position: absolute;
+    top: 100%;
+    margin-top: 4px;
+}
+
+/*密码*/
+
+.re_pwd {
+    width: 310px;
+    height: 44px;
+    margin-bottom: 28px;
+    color: #333;
+}
+
+.re_pwd_l {
+    width: 156px;
+    height: 43px;
+    margin-right: 12px;
+    float: left;
+    position: relative;
+}
+
+.re_pwd_in {
+    width: 138px;
+    font-size: 14px;
+    line-height: 1.5;
+    height: auto;
+    padding: 10px 8px;
+    border: 1px solid #CFCFCF;
+}
+
+.get_checknum {
+    width: 112px;
+    height: 41px;
+    padding: 0 8px;
+    font-weight: bold;
+    color: #666;
+    line-height: 41px;
+    display: block;
+    float: left;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(to bottom, #fcfcfc, #f2f2f2);
+    text-align: center;
+}
+
+.re_passwd {
+    width: 310px;
+    height: 44px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+/*.re_repeat{position: relative; }*/
+.re_passwd input {
+    border: 1px solid #CFCFCF;
+    padding: 10px 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    height: auto;
+    width: 284px;
+}
+
+/*==============确认注册=================*/
+.re_act {
+    width: 310px;
+    height: 68px;
+    margin-bottom: 28px;
+}
+
+.re_submit_btn {
+    width: 310px;
+    height: 40px;
+    margin: 10px;
+}
+
+.re_submit_btn input {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background: #F8296D;
+    color: #FFF;
+    border: none;
+}
+
+.re_usertips {
+    width: 310px;
+    height: 18px;
+    margin: 10px 0;
+}
+
+.re_usertips a {
+    color: #ed145b;
+}
+
+
+
+
+
+
+
+
+

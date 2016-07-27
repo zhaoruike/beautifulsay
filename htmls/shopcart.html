@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车-聚美优品</title>
+		<script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/shopcart.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/shopcart.css"/>
+	</head>
+	<body>
+		<!--====================头部==================-->
+		<div class="shop_header">
+			<div class="sh_he_1">
+				<div class="welcome">
+					聚美优品欢迎您，
+					<a href="register.html" target="_blank" class="sh_login">免费注册</a>
+					<span>|</span>
+					<a href="login.html" target="_blank" class="sh_login">登录</a>
+				</div>
+			</div>
+			<div class="sh_logo">
+				<div class="sh_logo_main">
+					<h1>
+						<a href="index.html" target="_blank">
+							<img src="../imgs/shop/cart_logo.jpg" />
+						</a>
+					</h1>
+					<div class="oarder_list"></div>
+				</div>
+			</div>
+		</div>
+		<!--main-->
+			<div class="sh_main">
+				<div class="sh_main_c">
+					<div class="sh_main_c_1">
+						<div class="sh_tip">
+							<i class="sh_icon"></i>
+							<span class="sh_timeout"> 已超过购物车商品保留时间，请尽快结算。 </span>	
+							<a href="javascript:;" style="color: red;">[?]
+								<!--<div class="tips">提示</div>-->
+							</a>
+						</div>
+						<div class="sh_banner">
+							<div class="sh_banner_1">
+								<span class="s1"></span>真品防伪码
+							</div>
+							<div class="sh_banner_1">
+								<span class="s2"></span>  30天无条件退货  
+							</div>
+							<div class="sh_banner_1">
+								<span class="s3"></span>  美妆满2件或299元包邮  
+							</div>
+						</div>
+						<div class="huodong">
+							<i>包邮</i> 新用户首单满39元包邮,自营非食品类满两件或满299元包邮 
+						</div>
+					</div>
+					<!--产品详细-->
+					<div class="sh_main_c_2">
+						<table class="main_detail">
+							<thead>
+								<tr class="biaoti">
+									<th class="first_t">
+										<div class="head_tit">
+											<input type="checkbox"   class="check_box" checked="checked"/>
+											<h2>  聚美优品发货  </h2>
+										</div>
+									</th>
+									<th>聚美价(元)</th>
+									<th>数量</th>
+									<th>小计(元)</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="shop_list">
+									<td class="good_name">
+										<div  class="on_check">
+											<input type="checkbox"   class="check_box check_list" checked="checked"/>
+										</div>
+										<div class="good_con">
+											<a href="javascript:;" class="good_logo">
+												<img src="../imgs/shop/good_logo.jpg" />
+											</a>
+											<p class="p1">
+												<span>[极速免税]</span>
+												<a href="javascript:;">COSMOMONSTER小怪兽水漾防晒霜</a>
+											</p>
+											<p class="p2">   容量：<span>50ml</span></p>
+										</div>
+									</td>
+									<td class="good_price">
+										<div>
+											<p class="price_now">59.00</p>
+											<p class="price_past">99.00</p>
+										</div>
+									</td>
+									<td class="good_count">
+										<div class="plus_btn">
+											<div>
+												<span class="plus_btn_l">-</span>
+												<input type="text"   class="good_many" value="0"/>
+												<span class="plus_btn_r">+</span>
+											</div>
+										</div>
+									</td>
+									<td class="good_save">
+										<div class="save_money">
+											<p class="money_total" ></p>
+											<p class="save_p2"><span class="save_total"></span></p>
+										</div>
+									</td>
+									<td class="good_del">
+										<div>
+											<a href="javascript:;" class="good_del_btn"></a>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr class="good_footer">
+									<td class="goods_total" colspan=5;>
+										 商品金额： <span class="money_total"></span>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<div class="good_jiesuan">
+							<div class="jiesuan_r">
+								共<span  class="good_how_many" style="color: #ed145b;"></span>  件商品    商品应付总额：<span  class="money_total" style="font-size: 18px;"></span>
+								<a href="javascript:;" class="btn_jiesuan">去结算</a>
+							</div>
+							<label class="all_check">
+								<input type="checkbox"  class="all_check_all" checked="checked"/>全选
+							</label>
+							<a href="banner.html" target="_blank" class="shop_continue all_hover">继续购物</a>
+							<span style="color: #99;">|</span>
+							<a href="javascript:;" class="clear_all all_hover">清空选中商品</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--加入底部-->
+		<div id="shop_footer"></div>
+	</body>
+</html>
